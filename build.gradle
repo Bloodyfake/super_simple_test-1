@@ -38,3 +38,9 @@ task simpletest(type: Test){
  includeTags('simpletest')
     }
 }
+task appletest(type: Test){
+
+    useJUnitPlatform {
+        includeTags('appletest')
+    }
+}
